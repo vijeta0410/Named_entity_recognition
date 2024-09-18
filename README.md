@@ -22,46 +22,35 @@ Follow the steps below to set up and run the project locally.
 
 1\. Clone the repository:
 
-    ```bash
-
+    ```
     git clone https://github.com/your-username/ner-app.git
-
     cd ner-app
-
     ```
 
 2\. Create a virtual environment (optional but recommended):
 
-    ```bash
-
+    ```
     python -m venv venv
-
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
     ```
 
 3\. Install the required dependencies:
 
-    ```bash
-
+    ```
     pip install streamlit spacy spacy-streamlit
-
     ```
 
 4\. Download the spaCy language model:
 
-    ```bash
-
+    ```
     python -m spacy download en_core_web_sm
-
     ```
 
 ## Running the App
 
 Run the app with the following command:
 
-```bash
-
+```
 streamlit run app.py
 ```
 The app will open in your browser. You can switch between the Word Tokenization and NER features using the sidebar menu.
